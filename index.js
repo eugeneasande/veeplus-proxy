@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const GOOGLE_SCRIPT_URL = "PASTE_YOUR_SCRIPT_URL_HERE"; // Replace with your Google Apps Script URL
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby7MAE-V1Gs2n6e3OR5j655EjgkoXTT4cdKB09T7H-ZQas1rdee4EhQTvpBQ3lsmtDTZA/exec"; // Replace with your Google Apps Script URL
 
 app.use(express.json());
 
